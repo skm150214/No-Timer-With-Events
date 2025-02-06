@@ -1,7 +1,7 @@
 # NoTimerWithEvents
 This is where she makes a mod.
 
-<img src="logo.png" width="881" alt="the mod's logo" />
+<img src="logo.png" width="336" alt="the mod's logo" />
 
 *Update logo.png to change your mod's icon (please)*
 
