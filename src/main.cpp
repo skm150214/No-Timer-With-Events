@@ -12,10 +12,10 @@ class $modify(DailyLevelPage) {
             auto labelThatIDontKnowHowToDelete=(nodeWhereWeFindTheLabel->getChildByIDRecursive("time-label"));
             if (labelThatIDontKnowHowToDelete){
                 auto bottomTextWeCouldMoveToTheCenterBecauseItLooksBetter=(getChildByIDRecursive("time-label"));
-                bottomTextWeCouldMoveToTheCenterBecauseItLooksBetter->setPosition({bottomTextWeCouldMoveToTheCenterBecauseItLooksBetter->getPosition().x,150});
-                labelThatIDontKnowHowToDelete->setPosition({0, -9999});
+                bottomTextWeCouldMoveToTheCenterBecauseItLooksBetter->setPosition({bottomTextWeCouldMoveToTheCenterBecauseItLooksBetter->getPosition().x,m_mainLayer->getContentHeight() / 2});
+                labelThatIDontKnowHowToDelete->setVisible(false);
             };
         };
         return true;
     }
-};//minimal code :three-stars: :three-stars: :three-stars:
+};//minimal code :three-stars: :three-stars: :three-stars: 
