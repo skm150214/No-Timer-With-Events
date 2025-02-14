@@ -8,7 +8,7 @@
 	},
 	"id": "skm150214.no_timer_with_events",
 	"name": "No Timer With Events",
-	"version": "v1.0.2",
+	"version": "v1.0.2-beta.1",
 	"developer": "SKM150214",
 	"description": "fixes event level menu to be nicer",
 	"dependencies": [{
