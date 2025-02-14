@@ -14,5 +14,11 @@
 	"dependencies": [{
             "id": "geode.node-ids",
             "version": ">=v1.19.0",
-            "importance": "required"}]
+            "importance": "required"}],
+	"settings":{"bool-setting-example": {
+    "type": "bool",
+    "name": "Move Bottom Text",
+    "description": "moves the bottom text to the center",
+    "default": true}
+		   }
 }
