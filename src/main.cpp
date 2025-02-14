@@ -12,7 +12,7 @@ class $modify(DailyLevelPage) {
             auto labelThatIDontKnowHowToDelete=(nodeWhereWeFindTheLabel->getChildByIDRecursive("time-label"));
             if (labelThatIDontKnowHowToDelete){
                 auto bottomTextWeCouldMoveToTheCenterBecauseItLooksBetter=(getChildByIDRecursive("time-label"));
-                if Mod::get()->getSettingValue<bool>("move-bottom-text"){
+                if (Mod::get()->getSettingValue<bool>("move-bottom-text")){
                     bottomTextWeCouldMoveToTheCenterBecauseItLooksBetter->setPosition({bottomTextWeCouldMoveToTheCenterBecauseItLooksBetter->getPosition().x,m_mainLayer->getContentHeight() / 2});
                 };
                 labelThatIDontKnowHowToDelete->setVisible(false);
