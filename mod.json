@@ -15,7 +15,7 @@
             "id": "geode.node-ids",
             "version": ">=v1.19.0",
             "importance": "required"}],
-	"settings":{"bool-setting-example": {
+	"settings":{"move-bottom-text": {
     "type": "bool",
     "name": "Move Bottom Text",
     "description": "moves the bottom text to the center",
